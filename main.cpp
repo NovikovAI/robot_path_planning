@@ -175,7 +175,7 @@ int main() {
     cv::imwrite("/home/user/Desktop/robot_path_planning/img/path.jpg",
                 OGUpscaled);
     cv::imwrite("/home/user/Desktop/robot_path_planning/img/path_upscaled.jpg",
-                OGUpscaled);
+                tmpMat);
     cv::destroyAllWindows();
 
     /*      WORKING NOTES:
